@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+ body{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #777777;
+  background-image: url(../images/greek-vase.png);
+}
+
+header {
+  background-color: white;
+  Position: relative;
+  width: 100%;
+  padding: 45px;
+  margin-bottom: 20px;
+  border-bottom-style: solid;
+  border-color: lightgray;
+  border-width: 1.5px;
+}
+
+.wrapper{
+  width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  border: 0px 0px 10px 0px gray;
+  min-height: 100%;
+   /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.logo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  float: left;
+  position: absolute;
+  top: -10;
+  bottom: 0;
+  width: 315px;
+  padding: 10px;
+  margin: 20px 0px 0px -20px;
+  background-color: #4aaaa5;
+  z-index: 3;
+  color: white;
+}
+
+nav {
+  text-align: center;
+  position: absolute;
+  top: 5;
+  right: 0;
+  bottom: 0;
+  width: 315px;
+  padding: 10px 5px 0px 10px;
+  margin: 0px 110px 30px 20px;
+  z-index: 3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border-right: 1px solid lightgray;
+}
+
+li a {
+  display: block;
+  padding: 0px 10px 1px 10px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #777777;
+  background-color: white;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+  margin-bottom: 200px;
+  margin-top: 25px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: .3px;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#4aaaa5;
+  line-height: 50px;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+img {
+  float: left; 
+  margin: 4px 25px 5px 0px; 
+  border: 1px solid white;"
+  width: 100%;
+  height: 200px;
+}
+
+p {
+  width: fit-content;
+  line-height: 36px;
+  font-size: 18px;
+}
+
+.content-img {
+  width: 530px;
+  margin: -3px 30px 0px -25px;
+  padding: 20px 30px 0px 30px;
+}
+
+.container-overlays1{
+  position: relative;
+  bottom: 20px;
+  width: 50%;
+  max-width: 220px;
+  margin-bottom: 35px;
+
+}
+.overlay1{
+  position: absolute; 
+  bottom: 15px; 
+  background: #4aaaa5;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.picrow{
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: -20px;
+}
+
+.picrow:after {
+content: "";
+display: table;
+clear: both;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color:#4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+footer{
+  position: absolute;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  background-color: #666666;
+  text-align: center;
+  color: #777777;
+  border-top: 8px solid #4aaaa5;
+}
