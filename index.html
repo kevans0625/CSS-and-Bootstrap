@@ -1,42 +1,67 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Kristin Evans | Full Stack Web Development Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8">
+    <title>Cover Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/cover/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="cover.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
-    <div>
-        
-        <header>
-
-
-                    <h1>Kristin Evans</h1>
-                    <div>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand row">Kristin Evans</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="index.html">About</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+            </div>
         </header>
+   
+            <main role="main" class="inner cover">
+                    <div class="content">
+                <h1 class="cover-heading">About Me</h1>
+                <p class="lead">Hi, my name is Kristin. I am a digital marketer studying to become a full stack web developer.
+                            I am based in the metro Houston area. I am enhancing my knowledge about front end development and
+                            excited to learn about back end development.</p>
+                 <p class="lead">My hopes is to combine my coding skills with my online marketing skills. Bundling 
+                            these skills is more strategic and ultimatley provides better success for branding and marketing purposes.</p>
+            </div>
+            </main>
 
-            <h1>About Me</h1>
-            <br>
-            <img src="assets/images/headshot.jpg" alt="Kristin Evans">
-
-
-                <p>Hi, my name is Kristin. I am a digital marketer studying to become a full stack web developer.
-                    I am based in the metro Houston area. I am enhancing my knowledge about front end development and
-                    excited to learn about back end development.</p>
-                <p>My hopes is to combine my coding skills with my online marketing skills. This knowledge will equip me
-                    with the ability to bundle my service and offer more value to potential employers or clients. Bundling 
-                    these skills is more strategic and ultimatley provides better success for branding and marketing purposes.</p>
-
-        <div class="push"></div>
-    <footer class="footer">Copyright &#169; 2019</footer>
+        <footer class="footer mt-auto py-3">
+            <div class="inner">
+                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
+                        href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+        </footer>
+    </div>
 </body>
+
+</html>
