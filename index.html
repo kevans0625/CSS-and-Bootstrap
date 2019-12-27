@@ -1,58 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Cover Template · Bootstrap</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/cover/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!-- Custom styles for this template -->
-    <link href="cover.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Kristin Evans</title>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <h3 class="masthead-brand row">Kristin Evans</h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="index.html">About</a>
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-            </div>
-        </header>
- 
-   
-            <main role="main" class="inner cover">
-                    <div class="content row">
-                            <div class="col-md-3">  
-                                <img src="images/headshot.jpg" alt="Kristin Evans">
-                    </div>
-                    <div class="col-md-3">  
-                        <h1 class="cover-heading">About Me</h1>
-                        <p class="lead">Hi, my name is Kristin. I am a digital marketer studying to become a full stack web developer.
-                                    I am based in the metro Houston area. I am enhancing my knowledge about front end development and
-                                    excited to learn about back end development.</p>
-                         <p class="lead">My hopes is to combine my coding skills with my online marketing skills. Bundling 
-                                    these skills is more strategic and ultimatley provides better success for branding and marketing purposes.</p>
-                </div>
-              
-            </div>
-            </main>
+<body>
 
-        <footer class="footer mt-auto py-3">
-            <div class="inner">
-                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
-                        href="https://twitter.com/mdo">@mdo</a>.</p>
+    ​<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>Kristin Evans</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </footer>
+        </div>
+    </nav>
+    <!-- Our rows function in containers (grid created). -->  
+
+        <div class="container cover">
+                <div class="container">
+            <!-- Our columns function in rows. -->
+            <div class="row">
+                <h1 class="cover-heading col-md-12">Header</h1>
+                <br>
+            </div>
+            <!-- Our columns function in rows. -->
+            <div class="row">
+                <!-- Columns have 12 areas of  width to work with. -->
+                <!-- One third of screen (4/12) -->
+                <div class="col-sm-12 col-md-3 col-lg-4">
+                    <img src="https://via.placeholder.com/150" alt="headshot">
+                </div>
+                <!-- One third of screen (4/12) -->
+                <div class="col-sm-12 col-md-9 col-lg-8">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting.
+                </div>
+            </div>
+        </div>
     </div>
+
+    ​
+    <footer class="footer mt-auto bg-dark py-3">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+    ​
+
 </body>
 
 </html>
