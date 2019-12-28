@@ -99,3 +99,14 @@
       height: 250px;
   }
 
+
+
+  /*
+  * Contact
+  */
+
+  .btn{
+    background-color: gray !important;
+    border: none;
+  }
+  
