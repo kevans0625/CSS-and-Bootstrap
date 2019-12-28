@@ -1,65 +1,86 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Kristin Evans | Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Kristin Evans</title>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div>
-        
-        <header>
+    ​<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>Kristin Evans</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Our rows function in containers (grid created). -->
 
-                    <h1>Kristin Evans</h1>
-                    <div>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-        </header>
-
-        <h1>Contact</h1>
-        <br>
-        <form action="action_page.php">
-
+    <div class="container cover">
+        <div class="container">
+            <!-- Our columns function in rows. -->
             <div class="row">
-                <label for="name">Name</label>
+                <h1 class="cover-heading col-md-12">Contact</h1>
+                <br>
             </div>
 
-            <div class="row">
-                <input type="text" id="name" name="name" placeholder="John Smith">
-            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" placeholder="John Smith">
+                    </div>
+                </div>
 
-            <div class="row">
-                <label for="email">Email</label>
-            </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com">
+                    </div>
+                </div>
 
-            <div class="row">
-                <input type="text" id="email" name="email" placeholder="example@gmail.com">
-            </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
 
-            <div class="row">
-                <label for="message">Message</label>
-            </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
 
-            <div class="row">
-                <textarea id="message" name="message" style="height:200px"></textarea>
-            </div>
-
-            <div class="row">
-                <input id="submit" type="submit" value="Submit">
-            </div>
         </form>
-
     </div>
-    <div class="push"></div>
-    <footer class="footer">Copyright &#169; 2019</footer>
+    </div>
+    </div>
+    ​
+    <footer class="footer mt-auto bg-dark py-3">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+    ​
+
 </body>
 
 </html>
