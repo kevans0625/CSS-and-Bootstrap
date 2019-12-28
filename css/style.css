@@ -82,8 +82,7 @@
   * Footer
   */
 
-  .mastfoot {
-      color: white;
+footer {
       text-decoration-color: none;
   }
 
@@ -99,8 +98,6 @@
       height: 250px;
   }
 
-
-
   /*
   * Contact
   */
@@ -108,5 +105,16 @@
   .btn{
     background-color: gray !important;
     border: none;
+  }
+
+   /*
+  * Portfolio
+  */ 
+
+  .card-title {
+    background-color: #343a40 !important;
+    padding: .5em;
+    transform: translateY(300%);
+    display: block;
   }
   
