@@ -5,97 +5,147 @@
     <meta charset="UTF-8">
     <title>Kristin Evans</title>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    ​<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <h1>Kristin Evans</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+
+
+
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center">Kristin Evans<i class="fa fa-laptop-code"></i></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </div>
     </nav>
 
-    <div class="container cover">
-        <div class="container">
-            <!-- Our columns function in rows. -->
-            <div class="row">
-                <h1 class="cover-heading col-md-6">Portfolio</h1>
-                <br>
-            </div>
+    </div>
 
 
-            <div class="card-deck">
-                <div class="card text-center bg-transparent" style="width: 18rem;">
-                    <img class="card-img-top" src="images/andre-benz-LEikIOMSxfs-unsplash.jpg" alt="Travel">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">My Name is John</h5>
+
+    <div class="cover z-depth-4">
+        <div class="row">
+            <h3 class="cover-heading col-md-6">PORTFOLIO</h3>
+            <br>
+        </div>
+        <!-- First row. -->
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img class="card-img-top" src="images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="Analytics">
+                        <span class="card-title">Analytics</span>
                     </div>
-                </div>
-
-                <div class="card text-center bg-transparent" style="width: 18rem;">
-                    <img class="card-img-top" src="images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="Analytics">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Analytics</h5>
+                    <div class="card-content hoverable">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
                     </div>
-                </div>
-
-                <div class="card text-center bg-transparent" style="width: 18rem;">
-                    <img class="card-img-top" src="images/kaleidico-26MJGnCM0Wc-unsplash.jpg" alt="Group Collaboration">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Collaboration</h5>
+                    <div class="card-action hoverable">
+                        <a href="#">This is a link</a>
                     </div>
                 </div>
             </div>
-
-
-            <div class="card-deck">
-
-                <div class="card text-center bg-transparent" style="width: 18rem;">
-                    <img class="card-img-top" src="images/joshua-coleman-fXls-tVemno-unsplash.jpg"
-                        alt="Seach Engine Optimization">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Seach Engine Optimization</h5>
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img class="card-img-top" src="images/andre-benz-LEikIOMSxfs-unsplash.jpg" alt="Travel">
+                        <span class="card-title">My Name is John</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action hoverable">
+                        <a href="#">This is a link</a>
                     </div>
                 </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img class="card-img-top" src="images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg" alt="Preparation">
+                        <span class="card-title">Preparation</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
 
-
-
-                <div class="card text-center bg-transparent" style="width: 18rem;">
-                    <img class="card-img-top" src="images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg" alt="Preparation">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Preparation</h5>
+                    </div>
+                    <div class="card-action hoverable">
+                        <a href="#">This is a link</a>
                     </div>
                 </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img class="card-img-top" src="images/kaleidico-26MJGnCM0Wc-unsplash.jpg"
+                            alt="Group Collaboration">
 
-                <div class="card text-center bg-transparent" style="width: 18rem;">
-
-                    <div class="card-img-overlay">
-                        
+                        <span class="card-title">Execution</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action hoverable">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="card-img-top" src="images/merakist-l5if0iQfV4c-unsplash.jpg"
+                            alt="Seach Engine Optimization">
+                        <span class="card-title">Search Engine Optimization</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img class="card-img-top" src="images/joshua-coleman-fXls-tVemno-unsplash.jpg"
+                            alt="Seach Engine Optimization">
+                        <span class="card-title">Collaboration</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action hoverable">
+                        <a href="#">This is a link</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
 
     ​
     <footer class="footer mt-auto bg-dark py-3">
