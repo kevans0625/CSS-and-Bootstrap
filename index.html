@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,44 +9,49 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- FontAwesome Script -->
+    <script src="https://kit.fontawesome.com/6a87270c95.js" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
 </head>
 
-<body>
-    <nav>
+<nav>
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo center">Kristin Evans</a>
 
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo left">Kristin Evans<i class="fa fa-laptop-code"></i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="assets/about.html">ABOUT<i class="material-icons">person</i></a></li>
+            <li><a href="assets/portfolio.html">PORTFOLIO<i class="material-icons">perm_media</i></a></li>
+            <li><a href="assets/contact.html">CONTACT<i class="material-icons">email</i></a></li>
+        </ul>
 
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="about.html">ABOUT<i class="material-icons">person</i></a></li>
-                <li><a href="portfolio.html">PORTFOLIO<i class="material-icons">perm_media</i></a></li>
-                <li><a href="contact.html">CONTACT<i class="material-icons">email</i></a></li>
-            </ul>
-            <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            <li><a href="https://www.linkedin.com/in/kristinevans/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/kevans0625"><i class="fab fa-github"></i></a></li>
+            <li><a href="/assets/Kristin Evans - Resume.pdf"><i class="far fa-file-pdf"></i></a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+    </div>
 
 
 
-
-
-    <div class="container center center-align">
-        <div class="cover cover-home">
+    <div class="cover-home container center center-align">
+        <div class="cover">
 
             <div class="row">
-                <h1 class="center-align col-md-12">Hi, I am Kris. I build and design responsive user interfaces.</h1>
-                <br>
-                <a href="about.html" class="waves-effect waves-light btn">Enter Here <i class="material-icons">arrow_forward</i></a>
+                <h2 class="center-align col-md-12">Hi, I am Kris, a full stack developer. I build and design responsive
+                    user interfaces.</h2>
+                <!-- <br> -->
+                <a href="assets/about.html" class=" btn">Enter Here <i class="material-icons">arrow_forward</i></a>
             </div>
-            <!-- Our columns function in rows. -->
         </div>
-        </div>
-
     </div>
+
+   
     <footer class="footer center-align">
         <div class="container">
             <span class="text-muted"> Kristin Evans &#169; 2019</span>
@@ -59,10 +64,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- JavaScript -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
 
 
 
-</body>
+    </body>
 
 </html>
