@@ -9,6 +9,6 @@ There are a few ways in which I improved this site through tutorials, and they a
 
 ## License
 
-Copyright (c) [2019] [Kristin Evans] All rights reserved.
+Copyright (c) [2020] [Kristin Evans] All rights reserved.
 
 Licensed under the [MIT] (LICENSE.txt) license.
