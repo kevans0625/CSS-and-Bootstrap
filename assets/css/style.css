@@ -1,7 +1,7 @@
   box-sizing: border-box a,
   a:focus,
   a:hover {
-      color: #fff;
+      color: #fff
   }
   /* Body Structure */
   
@@ -76,8 +76,6 @@
   .about {
       color: #2D3D52;
   }
-  
-  .cover-home {}
   
   .navbar-brand .nav-link:hover,
   .navbar-brand .nav-link:focus {
@@ -220,13 +218,14 @@
   /*
   * Portfolio
   */
-  
-  .card-title {
+  /* .card-title {
       background-color: rgba(255, 255, 255, .5);
       /* padding: .25em; */
-      transform: translateY(300%);
+  /* transform: translateY(300%);
       display: block;
-  }
+  } */
+  
+  */
   /* media  */
   /* // Small devices (landscape phones, 576px and up) */
   
