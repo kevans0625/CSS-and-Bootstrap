@@ -218,12 +218,10 @@
   /*
   * Portfolio
   */
-  /* .card-title {
-      background-color: rgba(255, 255, 255, .5);
-      /* padding: .25em; */
-  /* transform: translateY(300%);
-      display: block;
-  } */
+  
+  .card-link {
+      color: rgba(255, 255, 255, .5);
+  }
   
   */
   /* media  */
